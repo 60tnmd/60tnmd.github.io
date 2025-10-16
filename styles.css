@@ -1,0 +1,63 @@
+body {
+    margin-bottom:55%;
+    background-color:#F1ECE3;
+}
+
+@media (min-width: 769px) {
+    .margin{
+    margin-left:10%;
+    margin-right:10%;
+    }
+}
+@media (max-width:768px) {
+    .margin{
+    margin-left:7%;
+    margin-right:7%;
+    }
+}
+
+/*
+.gallery img:hover {
+    cursor:pointer;
+    filter:brightness(85%); 
+}
+*/
+
+.static {
+    position:fixed;
+    z-index: 100;
+}
+
+@media (max-width:768px) {
+    .static{
+        font-size:6.5vw;
+    }
+}
+
+.centred {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.duo {
+    display:inline-block;
+}
+
+@font-face {
+    font-family: "Nimbus Sans L";
+    src: url(NimbusSanL-Bol.otf);
+}
+@font-face {
+    font-family: "Alte Haas Grotesk";
+    src: url(AlteHaasGroteskBold.ttf);
+}
+
+h1 {
+ font-family: "Alte Haas Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.4em;
+  color: #34610A;
+}
